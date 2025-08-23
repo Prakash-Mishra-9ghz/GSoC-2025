@@ -172,7 +172,7 @@ Throughout the 11 weeks of the GSoC period, I consistently created weekly docume
 
 - **Long Term Maintainence**: Keep the Nomos plugin updated with ORT changes and ensure it continues to work reliably over time.
 - **Reliability**: Ensure the plugin and Docker integration remain stable across different environments and large codebases.
-- **Future Enhancements**: Explore adding support for additional file types and optimizing performance for large-scale projects..
+- **Future Enhancements**: Explore adding support for additional file types and optimizing performance for large-scale projects.
 
 <h1 align="center" id = "key-takeaways"> Key Takeaways <img src="https://www.netanimations.net/livres-13.gif" width="60"></h1>
 
@@ -183,8 +183,6 @@ Throughout the 11 weeks of the GSoC period, I consistently created weekly docume
 - **Adaptability**: Managed overlapping responsibilities like exams while maintaining consistent project progress.
 
 <h1 align="center" id = "acknowledgement"> Acknowledgements <img src="files/thanks.gif" width="45"></h1>
-
-I would like to sincerely thank:
 
 I would like to sincerely thank my mentors [Kaushal Kumar](https://www.linkedin.com/in/kaushl2208/), [Gaurav Mishra](https://www.linkedin.com/in/gmishx/), and [Shaheem Azmal M MD.](https://www.linkedin.com/in/shaheem-azmal-m-md-71604429/). Their guidance and support were invaluable throughout this project. Whenever I faced challenges or got stuck, they patiently helped me understand and overcome the issues, teaching me many things I did not know before.  
 
