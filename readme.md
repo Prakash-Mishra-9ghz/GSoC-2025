@@ -184,7 +184,7 @@ Throughout the 11 weeks of the GSoC period, I consistently created weekly docume
 
 <h1 align="center" id = "acknowledgement"> Acknowledgements <img src="files/thanks.gif" width="45"></h1>
 
-I would like to sincerely thank my mentors [Kaushal Kumar](https://www.linkedin.com/in/kaushl2208/), [Gaurav Mishra](https://www.linkedin.com/in/gmishx/), and [Shaheem Azmal M MD.](https://www.linkedin.com/in/shaheem-azmal-m-md-71604429/). Their guidance and support were invaluable throughout this project. Whenever I faced challenges or got stuck, they patiently helped me understand and overcome the issues, teaching me many things I did not know before.  
+I would like to sincerely thank my mentors [Kaushalendra Kumar](https://www.linkedin.com/in/kaushl2208/), [Gaurav Mishra](https://www.linkedin.com/in/gmishx/), and [Shaheem Azmal M MD.](https://www.linkedin.com/in/shaheem-azmal-m-md-71604429/). Their guidance and support were invaluable throughout this project. Whenever I faced challenges or got stuck, they patiently helped me understand and overcome the issues, teaching me many things I did not know before.  
 
 I truly enjoyed this experience — it was challenging at times, but these challenges helped me learn and grow as a developer. The mentorship and knowledge I received made this GSoC journey meaningful and rewarding.
 
