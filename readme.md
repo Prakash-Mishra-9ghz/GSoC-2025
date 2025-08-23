@@ -86,19 +86,19 @@ On the FOSSology side, I prepared a standalone release of the Nomos agent.
 
 ### Pull Requests Authored
 #### *ORT Repository Contributions*
-- **PR #[10631]**: [scanner: Add Nomos plugin] - [Status: Under Review]
+- **PR #[10631](https://github.com/oss-review-toolkit/ort/pull/10631)**: [scanner: Add Nomos plugin] - [Status: Under Review]
   - **Description**: Introduced a new scanner plugin to integrate FOSSology's Nomos agent into ORT for license detection.
   - **Technical Details**: Developed a scanner class that invokes the Nomos binary, parses its output, and integrates the results into ORT's license model.
   - **Impact**: Enhanced ORT's capability to detect licenses using FOSSology's Nomos agent.
 
 #### *ORT Repository Contributions*
-- **PR #[10764]**: [chore(docker): Add FOSSology Nomos binary to docker image] - [Status: Under Review]
+- **PR #[10764](https://github.com/oss-review-toolkit/ort/pull/10764)**: [chore(docker): Add FOSSology Nomos binary to docker image] - [Status: Under Review]
   - **Description**: Added the Nomos binary to ORT's Docker image to facilitate seamless license scanning.
   - **Technical Details**: Modified Dockerfile to include the Nomos static binary, ensuring it's executable within the container.
   - **Impact**: Simplified the setup process for users by providing an out-of-the-box solution for license scanning.
 
 #### *FOSSology Repository Contributions*
-- **PR #[3100]**: [feat(release): add job to upload nomos binary] - [Status: Under Review]
+- **PR #[3100](https://github.com/fossology/fossology/pull/3100)**: [feat(release): add job to upload nomos binary] - [Status: Under Review]
   - **Description**: Implemented a CI job to automate the uploading of the Nomos binary for standalone use.
   - **Standalone Release**: Configured the build system to produce a statically linked Nomos binary, reducing unnecessary dependencies.
   - **Documentation**: Updated release notes and build documentation to guide users on utilizing the standalone Nomos agent.
