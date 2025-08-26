@@ -83,25 +83,28 @@ On the FOSSology side, I prepared a standalone release of the Nomos agent.
 - **Consistency & Reproducibility**: Ensures the same scanning environment across all setups using ORT’s Docker image.
 
 ## Code Contributions & Pull Requests
-
 ### Pull Requests Authored
+#### *FOSSology Repository Contributions (Pre-GSoC)*
+- **PR #[3028](https://github.com/fossology/fossology/pull/3028)**: [feat(rest): Enhance PATCH /upload/{id} endpoint] - [Status: Merged]
+  - **Description**: Added JSON support for updating upload metadata (`name`, `uploadDescription`) in the REST API.
+  - **Technical Details**: Enabled `PATCH /upload/{id}` to accept JSON payloads while keeping form-data support.
+  - **Impact**: Improved API usability and aligned it with modern REST practices.
 #### *ORT Repository Contributions*
 - **PR #[10631](https://github.com/oss-review-toolkit/ort/pull/10631)**: [scanner: Add Nomos plugin] - [Status: Under Review]
-  - **Description**: Introduced a new scanner plugin to integrate FOSSology's Nomos agent into ORT for license detection.
+  - **Description**: Introduced a new scanner `plugin` to integrate FOSSology's Nomos agent into ORT for license detection.
   - **Technical Details**: Developed a scanner class that invokes the Nomos binary, parses its output, and integrates the results into ORT's license model.
   - **Impact**: Enhanced ORT's capability to detect licenses using FOSSology's Nomos agent.
 
 #### *ORT Repository Contributions*
 - **PR #[10764](https://github.com/oss-review-toolkit/ort/pull/10764)**: [chore(docker): Add FOSSology Nomos binary to docker image] - [Status: Under Review]
   - **Description**: Added the Nomos binary to ORT's Docker image to facilitate seamless license scanning.
-  - **Technical Details**: Modified Dockerfile to include the Nomos static binary, ensuring it's executable within the container.
+  - **Technical Details**: Modified Dockerfile to include the `Nomos static binary`, ensuring it's executable within the container.
   - **Impact**: Simplified the setup process for users by providing an out-of-the-box solution for license scanning.
 
 #### *FOSSology Repository Contributions*
 - **PR #[3100](https://github.com/fossology/fossology/pull/3100)**: [feat(release): add job to upload nomos binary] - [Status: Under Review]
   - **Description**: Implemented a CI job to automate the uploading of the Nomos binary for standalone use.
   - **Standalone Release**: Configured the build system to produce a statically linked Nomos binary, reducing unnecessary dependencies.
-  - **Documentation**: Updated release notes and build documentation to guide users on utilizing the standalone Nomos agent.
   - **Impact**: Provided a portable version of the Nomos agent, enabling its use outside the FOSSology server environment.
 
 
@@ -165,7 +168,7 @@ Throughout the 11 weeks of the GSoC period, I consistently created weekly docume
 -   [Week 7](https://fossology.github.io/gsoc/docs/2025/oss-review-toolkit/updates/2025-08-02)
 -   [Week 8](https://fossology.github.io/gsoc/docs/2025/oss-review-toolkit/updates/2025-08-09)
 -   [Week 9](https://fossology.github.io/gsoc/docs/2025/oss-review-toolkit/updates/2025-08-16)
--   [Week 10]()
+-   [Week 10](https://fossology.github.io/gsoc/docs/2025/oss-review-toolkit/updates/2025-08-23)
 -   [Week 11]()
 
 <h1 align="center" id = "future-goals"> Future Goals  <img src="files/goals.gif" height="60" ></h1>
@@ -173,6 +176,7 @@ Throughout the 11 weeks of the GSoC period, I consistently created weekly docume
 - **Long Term Maintainence**: Keep the Nomos plugin updated with ORT changes and ensure it continues to work reliably over time.
 - **Reliability**: Ensure the plugin and Docker integration remain stable across different environments and large codebases.
 - **Future Enhancements**: Explore adding support for additional file types and optimizing performance for large-scale projects.
+- **FOSSology Server Integration**: Extend beyond the standalone Nomos binary to support server-based workflows (via REST API), enabling full *FOSSology* features.
 
 <h1 align="center" id = "key-takeaways"> Key Takeaways <img src="https://www.netanimations.net/livres-13.gif" width="60"></h1>
 
