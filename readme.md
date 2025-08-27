@@ -123,6 +123,9 @@ On the FOSSology side, I prepared a standalone release of the Nomos agent.
 4. **Result Parsing**: The JSON output from Nomos is parsed to extract license information. This data is then mapped to ORT's internal model for further processing.
 5. **Integration**: The parsed and SPDX-compliant license data is integrated into ORT's reporting pipeline, generating detailed reports for users.
 
+The following diagram illustrates the flow of data from source code input through ORT processing, Nomos license detection, and finally to SPDX-compliant report generation.  
+![Data Flow Architecture Diagram](files/Flowchart.png)
+
 #### *Data Flow Architecture*
 - **Input Processing**: Source code files are prepared for scanning by the ORT framework, ensuring they are accessible and correctly formatted.
 - **License Detection**: Nomos scans each file for license information, utilizing its CLI interface to detect and report licenses.
