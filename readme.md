@@ -204,3 +204,4 @@ Feel free to connect and collaborate! You can reach me through:
 - **Email:** [Send me a message](mailto:prakashmishra9921@gmail.com)  
 
 [![](https://img.shields.io/badge/Made%20With%20❤️%20&%20☕%20By-Prakash-red)](https://github.com/Prakash-Mishra-9ghz)
+![ViewCount](https://views.whatilearened.today/views/github/Prakash-Mishra-9ghz/GSoC-2025.svg)
