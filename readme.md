@@ -171,7 +171,7 @@ Throughout the 11 weeks of the GSoC period, I consistently created weekly docume
 -   [Week 8](https://fossology.github.io/gsoc/docs/2025/oss-review-toolkit/updates/2025-08-09)
 -   [Week 9](https://fossology.github.io/gsoc/docs/2025/oss-review-toolkit/updates/2025-08-16)
 -   [Week 10](https://fossology.github.io/gsoc/docs/2025/oss-review-toolkit/updates/2025-08-23)
--   [Week 11]()
+-   [Week 11](https://fossology.github.io/gsoc/docs/2025/oss-review-toolkit/updates/2025-08-30)
 
 <h1 align="center" id = "future-goals"> Future Goals  <img src="files/goals.gif" height="60" ></h1>
 
